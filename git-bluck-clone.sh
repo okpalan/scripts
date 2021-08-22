@@ -3,6 +3,7 @@
 if [! "$(git --version)" ]; then
     echo "This script requires git!" && exit 1
 fi
+
 readarray array <<< $( cat "$@" )
 
 mkdir -p ~/git && cd ~/git
