@@ -124,3 +124,10 @@ do
         done 
     done
 done
+# additonal steps:
+# Remove the repo directory
+cd ..
+rm -rf $REPO_DIR
+
+echo "=== The joined git repository has been created ==="
+echo "=== and is located in the $MAIN_TREE_NAME folder ==="
