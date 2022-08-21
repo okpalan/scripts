@@ -129,5 +129,6 @@ done
 cd ..
 rm -rf $REPO_DIR
 
-echo "=== The joined git repository has been created ==="
-echo "=== and is located in the $MAIN_TREE_NAME folder ==="
+echo "=== You can now modify the $MAIN_TREE_NAME/.gitignore file ===" 
+echo "=== to ignore the folders which you do not wish to track ==="
+echo "=== and then commit the changes and push them to github ==="
